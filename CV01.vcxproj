@@ -138,16 +138,25 @@
     <ClCompile Include="scene.cpp" />
     <ClCompile Include="shader.cpp" />
     <ClCompile Include="shaderProgram.cpp" />
+    <ClCompile Include="transformation.h" />
+    <ClCompile Include="TransformationComposite.cpp" />
     <ClCompile Include="VAO.cpp" />
     <ClCompile Include="VBO.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="application.h" />
+    <ClInclude Include="bushes.h" />
     <ClInclude Include="drawableObject.h" />
     <ClInclude Include="Model.h" />
+    <ClInclude Include="rotation.h" />
+    <ClInclude Include="scale.h" />
     <ClInclude Include="scene.h" />
     <ClInclude Include="shader.h" />
     <ClInclude Include="shaderProgram.h" />
+    <ClInclude Include="sphere.h" />
+    <ClInclude Include="TransformationComposite.h" />
+    <ClInclude Include="translation.h" />
+    <ClInclude Include="tree.h" />
     <ClInclude Include="VAO.h" />
     <ClInclude Include="VBO.h" />
   </ItemGroup>
